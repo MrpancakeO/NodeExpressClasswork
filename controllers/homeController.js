@@ -24,3 +24,7 @@ exports.showSignUp = (req, res) => {
 exports.postedSignUpForm = (req, res) => {
     res.render("thanks")
 }
+
+exports.showIndex = (req, res) => {
+    res.render("index");
+}
